@@ -17,7 +17,6 @@ try:
     if not (1 <= num_count <= 1000):
         print("Error. Please enter a number between 1 and 1000")
     else:
-        # Open a file to write the random numbers
         filename = "random_numbers.txt"
         with open(filename, "w") as file:
             for _ in range(num_count):
